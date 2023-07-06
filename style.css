@@ -71,3 +71,94 @@
     border: none;
 
 }
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.about-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+
+}
+
+.box {
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+
+}
+
+.icon {
+    width: 70px;
+}
+
+.box-btn {
+    background-color: gray;
+    margin-top: 10px;
+
+}
+
+.box-title {
+    padding: 10px;
+
+}
+
+.box-description {
+    padding: 1px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+
+    padding: 20px;
+
+}
+
+.service-photo {
+    background-image: url("./images/background.png"),
+        linear-gradient(45deg, rgb(66, 64, 64), black);
+    color: aliceblue;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-title1 {
+    padding-top: 80px;
+
+}
+
+.footer-para {
+    padding: 10px;
+}
+
+.footer-photo {
+    background-image: url("./images/background.png"),
+        linear-gradient(45deg, rgb(5, 5, 5), black);
+    color: aliceblue;
+}
+
+.footer-logo {
+    width: 120px;
+    padding-top: 10px;
+}
+
+.footer-description {
+    padding: 10px;
+}

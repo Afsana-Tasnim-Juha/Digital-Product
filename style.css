@@ -48,6 +48,9 @@
     color: azure;
     background-image: url("./images/background.png"),
         linear-gradient(45deg, rgb(66, 64, 64), black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title {
